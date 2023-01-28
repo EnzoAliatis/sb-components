@@ -26,7 +26,7 @@ export interface MyLabelProps {
   customColor?: string;
 }
 
-const MyLabel = ({
+export const MyLabel = ({
   label = 'No Label',
   size = 'normal',
   allCaps = false,
@@ -39,5 +39,3 @@ const MyLabel = ({
     </span>
   );
 };
-
-export default MyLabel
