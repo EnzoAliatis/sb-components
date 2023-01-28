@@ -46,3 +46,10 @@ CustomFontColor.args = {
   customColor: '#5517ac',
   label: "Custom"
 }
+
+export const EnzoStyles = Template.bind({});
+EnzoStyles.args = {
+  size: 'h1',
+  customColor: '#5517ac',
+  label: "Henzo"
+}
